@@ -10,3 +10,4 @@ root.render(
     <Routes />
   </React.StrictMode>
 );
+
