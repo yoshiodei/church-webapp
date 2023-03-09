@@ -1,8 +1,8 @@
 import React from 'react';
-import DummySection from '../sections/DummySection';
+import Home from '../sections/Home';
 
 export default function Main() {
   return (
-    <DummySection />
+    <Home />
   );
 }
