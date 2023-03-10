@@ -1,0 +1,120 @@
+.testimonials {
+    padding: 50px;
+    background: url("https://media.istockphoto.com/id/645583576/photo/african-american-men-and-women-at-bible-study-meeting.jpg?s=612x612&w=0&k=20&c=r0yJ-6-tCAlrtO_-mJpCYEF_Gtcob3gsw5yD-5VLUQM=");
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(233, 233, 233, 0.413);
+}
+
+.testimonials-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.testimonials-title h1 {
+    font-size: 36px;
+    color: var(--primaryColor);
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card {
+    background: white;
+    display: flex;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.testimonial-card-left {
+    background: silver;
+    border-radius: 5px;
+    margin-right: 20px;
+    height: 140px;
+    width: 140px;
+}
+
+.testimonial-card-right h3 {
+    color: var(--primaryColor);
+    font-weight: 700;
+}
+
+.testimonial-card-right a {
+    text-decoration: none;
+    color: silver;
+}
+
+.testimonials-btn {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.testimonials-btn button {
+    padding: 5px 40px;
+    border: none;
+    background: var(--primaryColor);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 750px) {
+    .testimonials {
+        padding: 20px;
+    }
+
+    .testimonials-title {
+        margin-bottom: 10px;
+    }
+
+    .testimonials-title h1 {
+        font-size: 30px;
+    }
+
+    .testimonial-cards {
+        flex-direction: column;
+    }
+
+    .testimonial-card {
+        padding: 10px;
+        margin: 0px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial-card-left {
+        margin-right: 10px;
+        height: 100px;
+        width: 100px;
+    }
+
+    .testimonial-card-right h3 {
+        font-size: 20px;
+    }
+
+    .testimonial-card-right p {
+        margin: 0px;
+    }
+
+    .testimonials-btn {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .testimonials-btn button {
+        padding: 5px 40px;
+        border: none;
+        background: var(--primaryColor);
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 50px;
+    }
+}

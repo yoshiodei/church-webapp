@@ -1,8 +1,14 @@
 import React from 'react';
-import DummySection from '../sections/DummySection';
+import BooksnPodcasts from './BooksnPodcasts';
+import Events from './Events';
+import Testimonials from './Testimonials';
 
 export default function Main() {
   return (
-    <DummySection />
+    <>
+      <Testimonials />
+      <Events />
+      <BooksnPodcasts />
+    </>
   );
 }
