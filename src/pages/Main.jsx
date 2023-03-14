@@ -5,6 +5,9 @@ import Scripture from '../sections/Scripture';
 import ServiceTimes from '../sections/ServiceTimes';
 import Join from '../sections/Join';
 import Sermons from '../sections/Sermons';
+import BooksnPodcasts from './BooksnPodcasts';
+import Events from './Events';
+import Testimonials from './Testimonials';
 
 export default function Main() {
   return (
@@ -15,6 +18,9 @@ export default function Main() {
       <ServiceTimes />
       <Join />
       <Sermons />
+      <Testimonials />
+      <Events />
+      <BooksnPodcasts />
     </>
   );
 }
