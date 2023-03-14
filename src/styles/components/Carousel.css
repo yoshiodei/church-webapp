@@ -1,0 +1,62 @@
+.carousel-custom {
+    height: 80vh;
+}
+
+.carousel-inner-custom, .carousel-item-custom, .img-custom {
+    height: 100%;
+}
+
+.img-custom {
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.2;
+}
+
+.carousel-indicators-custom {
+    width: 100%;
+    margin: 0;
+    padding: 20px 120px;
+    justify-content: flex-end;
+}
+
+.carousel-indicators-custom button {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 50%;
+    background-color: unset !important;
+    border: 3px solid white !important;
+    margin-left: 8px !important;
+}
+
+.carousel-indicators-custom button.active {
+    background-color: var(--primaryColor) !important;
+    border: 3px solid var(--primaryColor) !important;
+}
+
+.carousel-caption-header {
+    color: var(--primaryColor);
+}
+
+.carousel-caption-button {
+    border: none;
+    background-color: var(--primaryColor);
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.carousel-caption-custom {
+    top: 30%;
+}
+
+
+
+
+
+
+
+
+
+

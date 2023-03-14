@@ -1,0 +1,16 @@
+.scripture {
+    min-height: 100px;
+}
+
+.scripture-div {
+    width: 450px;
+    text-align: center;
+}
+
+.scripture-div i {
+    color: var(--primaryColor);
+}
+
+.scripture-title {
+    color: var(--primaryColor);
+}
