@@ -6,7 +6,7 @@ export default function Sermons() {
   return (
     <div className="sermons py-5">
       <div className="container">
-        <SectionHeader title="Sermons" />
+        <SectionHeader title="Sermons" icon="fa-solid fa-person-praying" />
         <div className="row pt-5 g-3">
           <div className="col-md-8">
             <div className="sermon__main-div">

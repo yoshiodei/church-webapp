@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.scripture-div i {
+    color: var(--primaryColor);
+}
+
 .scripture-title {
     color: var(--primaryColor);
 }

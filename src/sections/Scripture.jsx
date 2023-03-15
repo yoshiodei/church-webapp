@@ -7,6 +7,7 @@ export default function Scripture() {
       <div className="container py-5">
         <div className="d-flex justify-content-center">
           <div className="scripture-div">
+            <i className="fa-solid fa-book-bible fs-4 mb-2" />
             <h3 className="fw-bold pb-2 scripture-title">Scripture Of The Week</h3>
             <p className="pb-3">
               The message of the cross is foolish to those who are headed for destruction! But we

@@ -7,7 +7,7 @@ export default function ServiceTimes() {
   return (
     <div className="service-times py-5">
       <div className="container">
-        <SectionHeader title="Service Times" />
+        <SectionHeader title="Service Times" icon="fa-solid fa-church" />
         <div className="row pt-5 g-5">
           <div className="col-md-4">
             <ServiceTimeCard />
