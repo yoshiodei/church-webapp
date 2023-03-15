@@ -16,8 +16,8 @@ export default function About() {
           </div>
           <div className="about-info-div col-md-7">
             <div>
-              <div>
-                <i />
+              <div className="about__info-title d-flex align-items-center">
+                <i className="fa-sharp fa-solid fa-landmark me-3 fs-4" />
                 <h4 className="fw-bold">Church History</h4>
               </div>
               <p>
@@ -27,8 +27,8 @@ export default function About() {
               </p>
             </div>
             <div>
-              <div>
-                <i />
+              <div className="about__info-title d-flex align-items-center">
+                <i className="fa-solid fa-crosshairs me-3 fs-4" />
                 <h4 className="fw-bold">Our Mission</h4>
               </div>
               <p>
@@ -38,8 +38,8 @@ export default function About() {
               </p>
             </div>
             <div>
-              <div>
-                <i />
+              <div className="about__info-title d-flex align-items-center">
+                <i className="fa-solid fa-eye me-3 fs-4" />
                 <h4 className="fw-bold">Our Vision</h4>
               </div>
               <p>
